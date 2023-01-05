@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel form</title>
+    <style>
+        fieldset{
+            background-color: wheat;
+            text-align:center;
+        }
+        legend{
+            font-size: 33px;
+        }
+        #btn{
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 80px;
+            border-radius: 20px;
+        }
+        #btn:hover{
+            background-color: rgb(124, 124, 255);
+            width: 85px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Travel Reservation Form</h1>
+    <fieldset>
+        <legend>Travel Reservation Form</legend>
+        <label for="Fullname">FullName:</label>
+        <br>
+        <input type="text" name="Fullname" id="Fullname" placeholder="Enter fullname" required>
+        <br>
+        <label for="Email">Email</label>
+        <br>
+        <input type="email" name="" id="Email" placeholder="Enter email">
+        <br>
+        <label for="tour">Select Tour Package:</label>
+        <br>
+        <select name="tour" id="tour">
+            <option value="Goa">Goa</option>
+            <option value="Veitnam">Veitnam</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+        <br>
+        <label for="person">Number of person:</label>
+        <br>
+        <input type="number" name="number" id="person" max="4" min="1">
+        <br>
+        <label for="avail">What would to you avail?</label>
+        <br>
+        <label for="Boarding">Boarding</label>
+        <input type="checkbox" name="board" id="Boarding">
+        <br>
+        <label for="food">Fooding</label>
+        <input type="checkbox" name="food" id="food">
+        <br>
+        <label for="coupon">Disc Coupon Code:</label>
+        <br>
+        <input type="text" name="coupon" id="coupon" placeholder="Enter Code Here">
+        <br>
+        <label for="terms">Term and Codintions:</label>
+        <br>
+        <input type="radio" name="terms" id="aggree" value="aggree">
+        <label for="aggree">I aggree</label>
+
+        <input type="radio" name="terms" id="dis" value="disagree">
+        <label for="dis">I Disaggree</label>
+        <br>
+        <br>
+        <input id="btn" type="submit" value="Submit">
+    </fieldset>
+</body>
+</html>
