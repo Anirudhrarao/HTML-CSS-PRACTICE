@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-radius: 10px;
+    width: 201px;
+    background-color: bisque;
+
+}
+
+.card img {
+    border: 2px solid;
+    border-radius: 10px 10px 0 0;
+    width: 200px;
+    display: flow-root;
+}

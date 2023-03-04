@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer-body {
+    height: 100vh;
+    background: linear-gradient(to right top, #EED6D3,#E8B4B8);
+}
+.container {
+    z-index: 2;
+    width: 50vw;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background: linear-gradient(to top right, #A49393,#67595E);
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    transform: translateY(-50%);
+    
+}
+
+.login-body p label{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.login-body {
+    padding: 30px;
+}
+
+.login-body p input[type="text"], input[type="password"] {
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.login-body p input{
+    width: 100%;
+}
+
+.login-body p input[type="submit"] {
+    padding: 12px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: rosybrown;
+    transition: 0.2s ease-out;
+    border: none;
+    border-radius: 6px;
+}
+
+.login-body p input[type="submit"]:hover {
+    background-color: #67595E;
+} 
+
+/* .circle {
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to bottom right, #A49393,#67595E);
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.c1 {
+    position: relative;
+    top: 40%;
+    left: 20%;
+}
+.c2 {
+    position: relative;
+    top: 40%;
+    right: 60%; */
+/* } */
+
+.footer {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: gainsboro;
+    transition: 0.4s ease-out;
+}
+
+a:hover {
+    color: #67595E;
+}
+
+.heading {
+    color: gainsboro;
+    margin-bottom: 10px;
+    text-align: center;
+}
