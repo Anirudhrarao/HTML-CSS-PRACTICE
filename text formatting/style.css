@@ -1,0 +1,14 @@
+h1 {
+    color: transparent;
+    /* text-decoration: underline;
+    text-decoration-color: darkslateblue;
+    text-decoration-style: wavy; */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px red;
+}
+p {
+    text-indent: 45px;
+    letter-spacing: 2px;
+    line-height: 1.3rem;
+    word-spacing: 10px;
+}

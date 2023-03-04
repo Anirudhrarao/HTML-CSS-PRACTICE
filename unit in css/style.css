@@ -1,0 +1,20 @@
+main{
+    border: 5px solid brown;
+    /* width: 50%; */
+    width: 25%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+section{
+    border: 5px dashed green;
+    /* width: 50%; */
+    width: 50vw;
+}
+
+/* do not use px in font size because it is absolute means size will remain same */
+/* always use em because it is relative to parent */
+/* em helps to increase size more than exists */
+/* rem stand for root em relative to root*/
